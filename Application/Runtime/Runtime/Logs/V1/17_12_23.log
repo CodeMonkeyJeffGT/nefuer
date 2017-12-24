@@ -1,0 +1,749 @@
+[ 2017-12-23T13:29:35+08:00 ] 118.203.125.66 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000031s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: 
+			SELECT `id`, `password`, `openid`
+			FROM `user`
+			WHERE `account` = 2015214288;
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+SQL: 
+				SELECT `id`, `account`
+				FROM `user`
+				WHERE `openid` = "oAS95wS037Mk-bqUq3rNaQLNnZfQ";
+			 [ RunTime:0.0003s ]
+SQL: 
+			SELECT `id`
+			FROM `college`
+			WHERE `name` = "信息与计算机工程学院"
+			LIMIT 1;
+		 [ RunTime:0.0002s ]
+SQL: 
+			SELECT `id`
+			FROM `major`
+			WHERE `name` = "软件工程"
+			LIMIT 1;
+		 [ RunTime:0.0001s ]
+SQL: 
+			INSERT INTO `user`(`account`, `password`, `name`, `grade`, `c_id`, `m_id`, `openid`, `sex`, `last_upd`, `birthday`)
+			VALUES (2015214288, "15F96E89084D78EF51CB4B93FC2A43BA", "胡家麟", 2015, 1, 1, "oAS95wS037Mk-bqUq3rNaQLNnZfQ", 1, 0, 19971014);
+		 [ RunTime:0.0025s ]
+
+[ 2017-12-23T13:34:54+08:00 ] 118.203.127.106 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: 
+			SELECT `id`, `password`, `openid`
+			FROM `user`
+			WHERE `account` = 2015214310;
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+SQL: 
+			SELECT `id`, `account`, `password`, `openid`
+			FROM `user`
+			WHERE `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI" OR `account` = 2015214310;
+		 [ RunTime:0.0002s ]
+SQL: 
+					UPDATE `user`
+					SET `password` = "753A524453F0BDFFA92B744FF38BB5C6", `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI"
+					WHERE `id` = 3;
+				 [ RunTime:0.0028s ]
+
+[ 2017-12-23T13:35:46+08:00 ] 118.203.127.106 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000032s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: 
+			SELECT `id`, `password`, `openid`
+			FROM `user`
+			WHERE `account` = 2015214310;
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+SQL: 
+			SELECT `id`, `account`, `password`, `openid`
+			FROM `user`
+			WHERE `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI" OR `account` = 2015214310;
+		 [ RunTime:0.0002s ]
+SQL: 
+					UPDATE `user`
+					SET `password` = "753A524453F0BDFFA92B744FF38BB5C6", `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI"
+					WHERE `id` = 3;
+				 [ RunTime:0.0127s ]
+
+[ 2017-12-23T13:38:43+08:00 ] 118.203.127.106 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000034s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: 
+			SELECT `id`, `password`, `openid`
+			FROM `user`
+			WHERE `account` = 2015214310;
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+SQL: 
+			SELECT `id`, `account`, `password`, `openid`
+			FROM `user`
+			WHERE `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI" OR `account` = 2015214310;
+		 [ RunTime:0.0002s ]
+SQL: 
+					UPDATE `user`
+					SET `password` = "753A524453F0BDFFA92B744FF38BB5C6", `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI"
+					WHERE `id` = 3;
+				 [ RunTime:0.0024s ]
+
+[ 2017-12-23T13:39:43+08:00 ] 118.203.127.106 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: 
+			SELECT `id`, `password`, `openid`
+			FROM `user`
+			WHERE `account` = 2015214310;
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+SQL: 
+			SELECT `id`, `account`, `password`, `openid`
+			FROM `user`
+			WHERE `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI" OR `account` = 2015214310;
+		 [ RunTime:0.0002s ]
+SQL: 
+					UPDATE `user`
+					SET `password` = "753A524453F0BDFFA92B744FF38BB5C6", `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI"
+					WHERE `id` = 3;
+				 [ RunTime:0.0024s ]
+ERR: Argument 1 passed to V1\Common\ApiController::apiError() must be of the type string, array given, called in /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/UserController.class.php on line 118
+
+[ 2017-12-23T13:40:44+08:00 ] 118.203.127.106 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000031s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: 
+			SELECT `id`, `password`, `openid`
+			FROM `user`
+			WHERE `account` = 2015214310;
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+SQL: 
+			SELECT `id`, `account`, `password`, `openid`
+			FROM `user`
+			WHERE `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI" OR `account` = 2015214310;
+		 [ RunTime:0.0002s ]
+SQL: 
+					UPDATE `user`
+					SET `password` = "753A524453F0BDFFA92B744FF38BB5C6", `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI"
+					WHERE `id` = 3;
+				 [ RunTime:0.0022s ]
+
+[ 2017-12-23T13:58:29+08:00 ] 118.203.127.106 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: 
+			SELECT `id`, `password`, `openid`
+			FROM `user`
+			WHERE `account` = 2015214310;
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+SQL: 
+			SELECT `id`, `account`, `password`, `openid`
+			FROM `user`
+			WHERE `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI" OR `account` = 2015214310;
+		 [ RunTime:0.0002s ]
+SQL: 
+					UPDATE `user`
+					SET `password` = "753A524453F0BDFFA92B744FF38BB5C6", `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI"
+					WHERE `id` = 3;
+				 [ RunTime:0.0021s ]
+
+[ 2017-12-23T14:04:59+08:00 ] 118.203.127.106 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000036s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: 
+			SELECT `id`, `password`, `openid`
+			FROM `user`
+			WHERE `account` = 2015214310;
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+SQL: 
+			SELECT `id`, `account`, `password`, `openid`
+			FROM `user`
+			WHERE `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI" OR `account` = 2015214310;
+		 [ RunTime:0.0002s ]
+SQL: 
+					UPDATE `user`
+					SET `password` = "753A524453F0BDFFA92B744FF38BB5C6", `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI"
+					WHERE `id` = 3;
+				 [ RunTime:0.0024s ]
+
+[ 2017-12-23T15:15:47+08:00 ] 118.203.127.106 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: 
+			SELECT `id`, `password`, `openid`
+			FROM `user`
+			WHERE `account` = 2015214310;
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+SQL: 
+			SELECT `id`, `account`, `password`, `openid`
+			FROM `user`
+			WHERE `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI" OR `account` = 2015214310;
+		 [ RunTime:0.0002s ]
+SQL: 
+					UPDATE `user`
+					SET `password` = "753A524453F0BDFFA92B744FF38BB5C6", `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI"
+					WHERE `id` = 3;
+				 [ RunTime:0.0024s ]
+
+[ 2017-12-23T17:31:55+08:00 ] 118.203.127.106 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: 
+			SELECT `id`, `password`, `openid`
+			FROM `user`
+			WHERE `account` = 2015214310;
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+SQL: 
+			SELECT `id`, `account`, `password`, `openid`
+			FROM `user`
+			WHERE `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI" OR `account` = 2015214310;
+		 [ RunTime:0.0002s ]
+SQL: 
+					UPDATE `user`
+					SET `password` = "753A524453F0BDFFA92B744FF38BB5C6", `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI"
+					WHERE `id` = 3;
+				 [ RunTime:0.0029s ]
+
+[ 2017-12-23T17:32:21+08:00 ] 118.203.127.106 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: 
+			SELECT `id`, `password`, `openid`
+			FROM `user`
+			WHERE `account` = 2015214310;
+			LIMIT 1
+		 [ RunTime:0.0003s ]
+
+[ 2017-12-23T17:32:26+08:00 ] 118.203.127.106 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000022s ]
+
+[ 2017-12-23T17:32:54+08:00 ] 118.203.127.106 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000035s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: 
+			SELECT `id`, `password`, `openid`
+			FROM `user`
+			WHERE `account` = 2015214310;
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+
+[ 2017-12-23T17:33:17+08:00 ] 118.203.127.106 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000024s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: 
+			SELECT `id`, `password`, `openid`
+			FROM `user`
+			WHERE `account` = 2015214310;
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+
+[ 2017-12-23T17:35:33+08:00 ] 118.203.127.106 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000031s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: 
+			SELECT `id`, `password`, `openid`
+			FROM `user`
+			WHERE `account` = 2015214310;
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+
+[ 2017-12-23T17:36:43+08:00 ] 118.203.127.106 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: 
+			SELECT `id`, `password`, `openid`
+			FROM `user`
+			WHERE `account` = 2015214310;
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+
+[ 2017-12-23T17:37:50+08:00 ] 118.203.127.106 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: 
+			SELECT `id`, `password`, `openid`
+			FROM `user`
+			WHERE `account` = 2015214310;
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+
+[ 2017-12-23T17:39:30+08:00 ] 118.203.127.106 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: 
+			SELECT `id`, `password`, `openid`
+			FROM `user`
+			WHERE `account` = 2015214310;
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+
+[ 2017-12-23T20:52:16+08:00 ] 118.203.127.106 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: 
+			SELECT `id`, `password`, `openid`
+			FROM `user`
+			WHERE `account` = 2015214310;
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+
+[ 2017-12-23T20:53:27+08:00 ] 118.203.127.106 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: 
+			SELECT `id`, `password`, `openid`
+			FROM `user`
+			WHERE `account` = 2015214310;
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+
+[ 2017-12-23T20:53:46+08:00 ] 118.203.127.106 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: 
+			SELECT `id`, `password`, `openid`
+			FROM `user`
+			WHERE `account` = 2015214310;
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+
+[ 2017-12-23T20:54:48+08:00 ] 118.203.127.106 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000036s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: 
+			SELECT `id`, `password`, `openid`
+			FROM `user`
+			WHERE `account` = 2015214310;
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+
+[ 2017-12-23T21:09:18+08:00 ] 118.203.127.106 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000035s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: 
+			SELECT `id`, `password`, `openid`
+			FROM `user`
+			WHERE `account` = 2015214310;
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+
+[ 2017-12-23T21:10:15+08:00 ] 118.203.127.106 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000031s ]
+ERR: syntax error, unexpected 'elseif' (T_ELSEIF)
+
+[ 2017-12-23T21:10:46+08:00 ] 118.203.127.106 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: 
+			SELECT `id`, `password`, `openid`
+			FROM `user`
+			WHERE `account` = 2015214310;
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+
+[ 2017-12-23T21:11:25+08:00 ] 118.203.127.106 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: 
+			SELECT `id`, `password`, `openid`
+			FROM `user`
+			WHERE `account` = 2015214310;
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+
+[ 2017-12-23T21:11:37+08:00 ] 118.203.127.106 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000023s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: 
+			SELECT `id`, `password`, `openid`
+			FROM `user`
+			WHERE `account` = 2015214310;
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+
+[ 2017-12-23T21:11:50+08:00 ] 118.203.127.106 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: 
+			SELECT `id`, `password`, `openid`
+			FROM `user`
+			WHERE `account` = 2015214310;
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+
+[ 2017-12-23T21:13:40+08:00 ] 118.203.127.106 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: 
+			SELECT `id`, `password`, `openid`
+			FROM `user`
+			WHERE `account` = 2015214310;
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+SQL: 
+			SELECT `id`, `account`, `password`, `openid`
+			FROM `user`
+			WHERE `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI" OR `account` = 2015214310;
+		 [ RunTime:0.0002s ]
+SQL: 
+					UPDATE `user`
+					SET `password` = "753A524453F0BDFFA92B744FF38BB5C6", `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI"
+					WHERE `id` = 3;
+				 [ RunTime:0.0034s ]
+
+[ 2017-12-23T21:13:44+08:00 ] 118.203.127.106 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000024s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: 
+			SELECT `id`, `password`, `openid`
+			FROM `user`
+			WHERE `account` = 2015214310;
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+
+[ 2017-12-23T21:14:01+08:00 ] 118.203.127.106 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000031s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: 
+			SELECT `id`, `password`, `openid`
+			FROM `user`
+			WHERE `account` = 2015214310;
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+SQL: 
+			SELECT `id`, `account`, `password`, `openid`
+			FROM `user`
+			WHERE `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI" OR `account` = 2015214310;
+		 [ RunTime:0.0002s ]
+SQL: 
+					UPDATE `user`
+					SET `password` = "753A524453F0BDFFA92B744FF38BB5C6", `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI"
+					WHERE `id` = 3;
+				 [ RunTime:0.0027s ]
+
+[ 2017-12-23T21:14:46+08:00 ] 118.203.127.106 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: 
+			SELECT `id`, `password`, `openid`
+			FROM `user`
+			WHERE `account` = 2015214310;
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+
+[ 2017-12-23T21:14:53+08:00 ] 118.203.127.106 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: 
+			SELECT `id`, `password`, `openid`
+			FROM `user`
+			WHERE `account` = 2015214310;
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+SQL: 
+			SELECT `id`, `account`, `password`, `openid`
+			FROM `user`
+			WHERE `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI" OR `account` = 2015214310;
+		 [ RunTime:0.0002s ]
+SQL: 
+					UPDATE `user`
+					SET `password` = "753A524453F0BDFFA92B744FF38BB5C6", `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI"
+					WHERE `id` = 3;
+				 [ RunTime:0.0028s ]
+
+[ 2017-12-23T21:15:00+08:00 ] 118.203.127.106 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: 
+			SELECT `id`, `password`, `openid`
+			FROM `user`
+			WHERE `account` = 2015214310;
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+SQL: 
+			SELECT `id`, `account`, `password`, `openid`
+			FROM `user`
+			WHERE `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI" OR `account` = 2015214310;
+		 [ RunTime:0.0002s ]
+SQL: 
+					UPDATE `user`
+					SET `password` = "753A524453F0BDFFA92B744FF38BB5C6", `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI"
+					WHERE `id` = 3;
+				 [ RunTime:0.0026s ]
+
+[ 2017-12-23T21:15:45+08:00 ] 118.203.127.106 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: 
+			SELECT `id`, `password`, `openid`
+			FROM `user`
+			WHERE `account` = 2015214288;
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+SQL: 
+			SELECT `id`, `account`, `password`, `openid`
+			FROM `user`
+			WHERE `openid` = "oAS95wS037Mk-bqUq3rNaQLNnZfQ" OR `account` = 2015214288;
+		 [ RunTime:0.0002s ]
+SQL: 
+					UPDATE `user`
+					SET `password` = "15F96E89084D78EF51CB4B93FC2A43BA", `openid` = "oAS95wS037Mk-bqUq3rNaQLNnZfQ"
+					WHERE `id` = 4;
+				 [ RunTime:0.0021s ]
+
+[ 2017-12-23T21:17:39+08:00 ] 125.39.132.94 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: 
+			SELECT `id`, `password`, `openid`
+			FROM `user`
+			WHERE `account` = 2015214288;
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+SQL: 
+			SELECT `id`, `account`, `password`, `openid`
+			FROM `user`
+			WHERE `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI" OR `account` = 2015214288;
+		 [ RunTime:0.0002s ]
+SQL: 
+					UPDATE `user`
+					SET `password` = "15F96E89084D78EF51CB4B93FC2A43BA", `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI"
+					WHERE `id` = 4;
+				 [ RunTime:0.0021s ]
+
+[ 2017-12-23T21:18:25+08:00 ] 118.203.127.106 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000031s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: 
+			SELECT `id`, `password`, `openid`
+			FROM `user`
+			WHERE `account` = 2015214288;
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+SQL: 
+			SELECT `id`, `account`, `password`, `openid`
+			FROM `user`
+			WHERE `openid` = "oAS95wS037Mk-bqUq3rNaQLNnZfQ" OR `account` = 2015214288;
+		 [ RunTime:0.0002s ]
+SQL: 
+					UPDATE `user`
+					SET `password` = "15F96E89084D78EF51CB4B93FC2A43BA", `openid` = "oAS95wS037Mk-bqUq3rNaQLNnZfQ"
+					WHERE `id` = 4;
+				 [ RunTime:0.0041s ]
+
+[ 2017-12-23T22:06:22+08:00 ] 123.151.77.48 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000028s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: 
+			SELECT `id`, `password`, `openid`
+			FROM `user`
+			WHERE `account` = 2015214310;
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+SQL: 
+			SELECT `id`, `account`, `password`, `openid`
+			FROM `user`
+			WHERE `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI" OR `account` = 2015214310;
+		 [ RunTime:0.0002s ]
+SQL: 
+					UPDATE `user`
+					SET `password` = "753A524453F0BDFFA92B744FF38BB5C6", `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI"
+					WHERE `id` = 3;
+				 [ RunTime:0.0022s ]
+
