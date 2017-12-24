@@ -82,7 +82,7 @@ class ApiController extends RestController {
 		$this->response(array(
 			'code' => 0,
 			'data' => $data
-		), $this->_type);
+		), 'json');
 	}
 
 	/**
@@ -99,7 +99,7 @@ class ApiController extends RestController {
 			'code'    => 1,
 			'message' => $message,
 			'data' 	  => $data
-		), $this->_type);
+		), 'json');
 	}
 
 	/**
@@ -113,7 +113,7 @@ class ApiController extends RestController {
 		$this->response(array(
 			'code'    => 2,
 			'message' => '请登录'
-		), $this->_type);
+		), 'json');
 	}
 
 	/**
