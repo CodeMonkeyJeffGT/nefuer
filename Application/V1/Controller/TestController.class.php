@@ -8,10 +8,12 @@ class TestController extends ApiController {
         $nefuer = \Nefu::getInstance($this->payload['user']['account'], $this->payload['user']['password'], $this->payload['user']['cookie']);
 
         $grade = substr($this->payload['user']['account'], 0, 4);
-        $year = date('Y', time());
+        $year = date('Y');
+        if(date('m') < 9)
+        	$year--;
 
         $term = array();
-        for($i = $grade; $i < $year; $i++)
+        for($i = $grade; $i <= $year; $i++)
         {
         	$term[$i . '-1'] = $nefuer->userTest($i . '-' . ($i + 1) . '-1');
 	        if(FALSE === $term[$i . '-1'])
