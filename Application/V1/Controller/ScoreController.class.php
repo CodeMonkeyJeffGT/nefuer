@@ -156,12 +156,13 @@ class ScoreController extends ApiController {
                 $term['count'][$score[$i]['term']]['allScore'] += $score[$i]['score'] * $score[$i]['num'];
             }
 
-            $term['score'][$score[$i]['term']][] = array(
+	    $term['score'][$score[$i]['term']][] = $score[$i];
+	    /**array(
                 'name'     => $score[$i]['name'],
                 'score'    => $score[$i]['score'],
                 'num'      => $score[$i]['num'],
                 'children' => $score[$i]['children'],
-            );
+	    );*/
         }
 
         foreach ($term['count'] as $key => $value)
