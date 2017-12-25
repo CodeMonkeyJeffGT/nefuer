@@ -9,8 +9,6 @@ class TestController extends ApiController {
 
         $grade = substr($this->payload['user']['account'], 0, 4);
         $year = date('Y', time());
-        if(date('m', time()) < 9)
-        	$year--;
 
         $term = array();
         for($i = $grade; $i < $year; $i++)
