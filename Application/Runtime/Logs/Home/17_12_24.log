@@ -1,33 +1,1206 @@
-[ 2017-12-24T10:44:20+08:00 ] ::1 /nefuer/home/try
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
-INFO: [ app_init ] --END-- [ RunTime:0.019696s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.035591s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.035647s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017043s ]
-INFO: [ app_end ] --END-- [ RunTime:0.017092s ]
-
-[ 2017-12-24T10:44:50+08:00 ] ::1 /nefuer/home/try
+[ 2017-12-24T01:08:43+08:00 ] 118.203.127.106 /nefuer/index.php/Home/index/signOut
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001085s ]
-INFO: [ app_end ] --END-- [ RunTime:0.001143s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000028s ]
+ERR: 非法操作:signOut
 
-[ 2017-12-24T10:45:14+08:00 ] ::1 /nefuer/home/try
+[ 2017-12-24T01:09:05+08:00 ] 118.203.127.106 /nefuer/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+
+[ 2017-12-24T01:09:06+08:00 ] 118.203.127.106 /nefuer/index.php/Home/index/wxLogin?code=07117Fll1OUdXl0PzTkl1mnGll117Fln&state=%2F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000022s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: 
+			SELECT `id`, `account`, `password`
+			FROM `user`
+			WHERE `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI";
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: account /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: password /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 54 行.
+NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 66 行.
+
+[ 2017-12-24T01:09:36+08:00 ] 118.203.127.106 /nefuer/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+
+[ 2017-12-24T01:09:37+08:00 ] 118.203.127.106 /nefuer/index.php/Home/index/wxLogin?code=001M0Oma08Ionw1OAzpa0B5vma0M0Om4&state=%2F
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: 
+			SELECT `id`, `account`, `password`
+			FROM `user`
+			WHERE `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI";
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: account /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: password /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 54 行.
+NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 66 行.
+
+[ 2017-12-24T01:09:42+08:00 ] 118.203.127.106 /nefuer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000024s ]
+NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 66 行.
+
+[ 2017-12-24T01:10:08+08:00 ] 118.203.127.106 /nefuer/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+
+[ 2017-12-24T01:10:09+08:00 ] 118.203.127.106 /nefuer/index.php/Home/index/wxLogin?code=011OTcE00gk5XE1CshG00DznE00OTcEm&state=%2F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: 
+			SELECT `id`, `account`, `password`
+			FROM `user`
+			WHERE `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI";
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: account /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: password /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 54 行.
+NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 66 行.
+
+[ 2017-12-24T01:10:14+08:00 ] 118.203.127.106 /nefuer/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000024s ]
+NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 66 行.
+
+[ 2017-12-24T01:10:17+08:00 ] 118.203.127.106 /nefuer/index.php/Home/index/wxLogin?code=021HwrAP1XwsD816wTyP1uTIAP1HwrAQ&state=%2F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000985s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000031s ]
+
+[ 2017-12-24T01:10:20+08:00 ] 118.203.127.106 /nefuer/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 66 行.
+
+[ 2017-12-24T01:11:09+08:00 ] 118.203.127.106 /nefuer/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+
+[ 2017-12-24T01:11:09+08:00 ] 118.203.127.106 /nefuer/index.php/Home/index/wxLogin?code=001Bd7W02YHHhX0RwwT02BjYV02Bd7WU&state=%2F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000024s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: 
+			SELECT `id`, `account`, `password`
+			FROM `user`
+			WHERE `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI";
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: account /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: password /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 54 行.
+NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 66 行.
+
+[ 2017-12-24T01:11:19+08:00 ] 118.203.127.106 /nefuer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 66 行.
+
+[ 2017-12-24T01:12:41+08:00 ] 118.203.127.106 /nefuer/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000041s ]
+
+[ 2017-12-24T01:12:42+08:00 ] 118.203.127.106 /nefuer/index.php/Home/index/wxLogin?code=021WPQuj0UPLen1Zf5vj09h6vj0WPQud&state=%2F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000024s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: 
+			SELECT `id`, `account`, `password`
+			FROM `user`
+			WHERE `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI";
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: account /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 53 行.
+NOTIC: [8] Undefined variable: password /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 53 行.
+NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+
+[ 2017-12-24T01:12:50+08:00 ] 118.203.127.106 /nefuer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+
+[ 2017-12-24T01:12:58+08:00 ] 118.203.127.106 /nefuer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+
+[ 2017-12-24T01:13:19+08:00 ] 118.203.127.106 /nefuer/index.php/Home/index/loginPage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000044s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000031s ]
+
+[ 2017-12-24T01:42:49+08:00 ] 123.151.77.48 /nefuer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+
+[ 2017-12-24T12:44:43+08:00 ] 118.203.127.106 /nefuer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+
+[ 2017-12-24T12:44:44+08:00 ] 118.203.127.106 /nefuer/index.php/Home/index/wxLogin?code=0716CuZ90M7vbw1NTNY90zwtZ906CuZH&state=%2F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000023s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: 
+			SELECT `id`, `account`, `password`
+			FROM `user`
+			WHERE `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI";
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: account /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 53 行.
+NOTIC: [8] Undefined variable: password /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 53 行.
+NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+
+[ 2017-12-24T12:44:52+08:00 ] 118.203.127.106 /nefuer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000024s ]
+NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+
+[ 2017-12-24T12:47:50+08:00 ] 118.203.127.106 /nefuer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000034s ]
+
+[ 2017-12-24T12:47:51+08:00 ] 118.203.127.106 /nefuer/index.php/Home/index/wxLogin?code=071Onut72SUtDL0gLSr72Pnmt72Onut6&state=%2F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: 
+			SELECT `id`, `account`, `password`
+			FROM `user`
+			WHERE `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI";
+			LIMIT 1
+		 [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: account /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 53 行.
+NOTIC: [8] Undefined variable: password /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 53 行.
+NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+
+[ 2017-12-24T12:48:00+08:00 ] 118.203.127.106 /nefuer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000023s ]
+NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+
+[ 2017-12-24T12:48:11+08:00 ] 118.203.127.106 /nefuer/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+
+[ 2017-12-24T12:48:20+08:00 ] 118.203.127.106 /nefuer/index.php/Home/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+
+[ 2017-12-24T12:49:14+08:00 ] 118.203.127.106 /nefuer/index.php/Home/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000031s ]
+
+[ 2017-12-24T12:49:15+08:00 ] 118.203.127.106 /nefuer/index.php/Home/index/wxLogin?code=081DEkje2mvlNE0PqAle2lq7je2DEkjO&state=%2F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000023s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: 
+			SELECT `id`, `account`, `password`
+			FROM `user`
+			WHERE `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI";
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: account /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 53 行.
+NOTIC: [8] Undefined variable: password /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 53 行.
+NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+
+[ 2017-12-24T12:50:32+08:00 ] 118.203.127.106 /nefuer/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+
+[ 2017-12-24T12:50:33+08:00 ] 118.203.127.106 /nefuer/index.php/Home/index/wxLogin?code=011CStTI1tbOE40zhsSI1eyvTI1CStTj&state=%2F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: 
+			SELECT `id`, `account`, `password`
+			FROM `user`
+			WHERE `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI";
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: account /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 53 行.
+NOTIC: [8] Undefined variable: password /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 53 行.
+NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+
+[ 2017-12-24T12:50:46+08:00 ] 118.203.127.106 /nefuer/index.php/Home/index/wxLogin?code=021HwrAP1XwsD816wTyP1uTIAP1HwrAQ&state=%2F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000041s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+
+[ 2017-12-24T12:50:55+08:00 ] 118.203.127.106 /nefuer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000039s ]
+NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+
+[ 2017-12-24T12:51:11+08:00 ] 118.203.127.106 /nefuer/index.php/Home/index/wxLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+
+[ 2017-12-24T12:51:12+08:00 ] 118.203.127.106 /nefuer/index.php/Home/index/wxLogin?code=021aNiFN091cS422bGCN0j0qFN0aNiFZ&state=%2F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000024s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: 
+			SELECT `id`, `account`, `password`
+			FROM `user`
+			WHERE `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI";
+			LIMIT 1
+		 [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: account /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 53 行.
+NOTIC: [8] Undefined variable: password /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 53 行.
+NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+
+[ 2017-12-24T12:51:23+08:00 ] 118.203.127.106 /nefuer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000028s ]
+NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+
+[ 2017-12-24T12:51:28+08:00 ] 118.203.127.106 /nefuer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+
+[ 2017-12-24T12:51:51+08:00 ] 118.203.127.106 /nefuer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+
+[ 2017-12-24T12:52:23+08:00 ] 118.203.127.106 /nefuer/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000039s ]
+
+[ 2017-12-24T12:52:24+08:00 ] 118.203.127.106 /nefuer/index.php/Home/index/wxLogin?code=071k4asb18mu9u0Gnotb1FlKrb1k4as-&state=%2F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000023s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: 
+			SELECT `id`, `account`, `password`
+			FROM `user`
+			WHERE `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI";
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: account /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 53 行.
+NOTIC: [8] Undefined variable: password /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 53 行.
+NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+
+[ 2017-12-24T12:55:27+08:00 ] 118.203.127.106 /nefuer/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+
+[ 2017-12-24T12:55:28+08:00 ] 118.203.127.106 /nefuer/index.php/Home/index/wxLogin?code=021LtWwc2LNCBC0ic7vc2OESwc2LtWwf&state=%2F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000024s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: 
+			SELECT `id`, `account`, `password`
+			FROM `user`
+			WHERE `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI";
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: account /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 53 行.
+NOTIC: [8] Undefined variable: password /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 53 行.
+NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+
+[ 2017-12-24T12:58:54+08:00 ] 118.203.127.106 /nefuer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+
+[ 2017-12-24T12:58:55+08:00 ] 118.203.127.106 /nefuer/index.php/Home/index/wxLogin?code=071n3TCv0ETSOc184rAv0Y2QCv0n3TC4&state=%2F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000023s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: 
+			SELECT `id`, `account`, `password`
+			FROM `user`
+			WHERE `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI";
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: account /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 53 行.
+NOTIC: [8] Undefined variable: password /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 53 行.
+NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+
+[ 2017-12-24T13:01:01+08:00 ] 118.203.127.106 /nefuer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000032s ]
+
+[ 2017-12-24T13:01:02+08:00 ] 118.203.127.106 /nefuer/index.php/Home/index/wxLogin?code=011yLJYO1a8Ty31vUPYO1wDJYO1yLJYg&state=%2F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: 
+			SELECT `id`, `account`, `password`
+			FROM `user`
+			WHERE `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI";
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: account /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 53 行.
+NOTIC: [8] Undefined variable: password /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 53 行.
+NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+
+[ 2017-12-24T13:01:04+08:00 ] 118.203.127.106 /nefuer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+
+[ 2017-12-24T13:01:11+08:00 ] 118.203.127.106 /nefuer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+
+[ 2017-12-24T13:01:28+08:00 ] 118.203.127.106 /nefuer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000033s ]
+
+[ 2017-12-24T13:01:29+08:00 ] 118.203.127.106 /nefuer/index.php/Home/index/wxLogin?code=0113mErH0IVhlh2SBAsH0fDwrH03mErN&state=%2F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000023s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: 
+			SELECT `id`, `account`, `password`
+			FROM `user`
+			WHERE `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI";
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: account /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 53 行.
+NOTIC: [8] Undefined variable: password /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 53 行.
+NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+
+[ 2017-12-24T13:01:47+08:00 ] 118.203.127.106 /nefuer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+
+[ 2017-12-24T13:01:48+08:00 ] 118.203.127.106 /nefuer/index.php/Home/index/wxLogin?code=061av5fw0P2FSh1jZrhw04QIew0av5fM&state=%2F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: 
+			SELECT `id`, `account`, `password`
+			FROM `user`
+			WHERE `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI";
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: account /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 53 行.
+NOTIC: [8] Undefined variable: password /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 53 行.
+NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 65 行.
+
+[ 2017-12-24T13:21:40+08:00 ] 118.203.127.106 /nefuer/home/user/unbinding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000032s ]
+ERR: 无法加载控制器:User
+
+[ 2017-12-24T13:21:45+08:00 ] 118.203.127.106 /nefuer/home/index/unbinding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000028s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+ERR: Think\Model:unbinding方法不存在！
+
+[ 2017-12-24T13:22:41+08:00 ] 118.203.127.106 /nefuer/home/index/unbinding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000033s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: 
+			UPDATE `user`
+			SET `openid` = ""
+			WHERE `id` = 3;
+		 [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: account /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 37 行.
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000623s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000648s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000093s ]
+
+[ 2017-12-24T13:23:28+08:00 ] 118.203.127.106 /nefuer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+
+[ 2017-12-24T13:23:30+08:00 ] 118.203.127.106 /nefuer/index.php/Home/index/wxLogin?code=001QRfdn0TGvUq1UKtdn0Wsfdn0QRfdk&state=%2F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000023s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: 
+			SELECT `id`, `account`, `password`
+			FROM `user`
+			WHERE `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI";
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000998s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000028s ]
+
+[ 2017-12-24T13:24:12+08:00 ] 118.203.127.106 /nefuer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000034s ]
+NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 100 行.
+NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 100 行.
+
+[ 2017-12-24T13:24:22+08:00 ] 118.203.127.106 /nefuer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+
+[ 2017-12-24T13:24:23+08:00 ] 118.203.127.106 /nefuer/index.php/Home/index/wxLogin?code=001XAtV52ixiMJ05ICU52c0PV52XAtVg&state=%2F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: 
+			SELECT `id`, `account`, `password`
+			FROM `user`
+			WHERE `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI";
+			LIMIT 1
+		 [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: account /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 88 行.
+NOTIC: [8] Undefined variable: password /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 88 行.
+NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 100 行.
+NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 100 行.
+
+[ 2017-12-24T13:24:32+08:00 ] 118.203.127.106 /nefuer/home/index/unbinding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000034s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: 
+			UPDATE `user`
+			SET `openid` = ""
+			WHERE `id` = 3;
+		 [ RunTime:0.0028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000100s ]
+
+[ 2017-12-24T13:24:43+08:00 ] 118.203.127.106 /nefuer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+
+[ 2017-12-24T13:24:44+08:00 ] 118.203.127.106 /nefuer/index.php/Home/index/wxLogin?code=001pssd413ZruL1IMHd41pmgd41pssd4&state=%2F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000024s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: 
+			SELECT `id`, `account`, `password`
+			FROM `user`
+			WHERE `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI";
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000898s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000028s ]
+
+[ 2017-12-24T13:25:01+08:00 ] 118.203.127.106 /nefuer/index.php/home/index/signOut
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000037s ]
+
+[ 2017-12-24T13:25:06+08:00 ] 118.203.127.106 /nefuer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000036s ]
+
+[ 2017-12-24T13:25:07+08:00 ] 118.203.127.106 /nefuer/index.php/Home/index/wxLogin?code=001QKgUq0Gut3q1pZGXq00c5Uq0QKgU7&state=%2F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000034s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: 
+			SELECT `id`, `account`, `password`
+			FROM `user`
+			WHERE `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI";
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: account /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 88 行.
+NOTIC: [8] Undefined variable: password /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 88 行.
+NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 100 行.
+NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 100 行.
+
+[ 2017-12-24T13:25:13+08:00 ] 118.203.127.106 /nefuer/home/index/unbinding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: 
+			UPDATE `user`
+			SET `openid` = ""
+			WHERE `id` = 3;
+		 [ RunTime:0.0026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000076s ]
+
+[ 2017-12-24T13:25:50+08:00 ] 118.203.127.106 /nefuer/home/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+
+[ 2017-12-24T13:25:51+08:00 ] 118.203.127.106 /nefuer/index.php/Home/index/wxLogin?code=061ttu3r0nnbtq1Aiw4r0j2z3r0ttu3U&state=%2F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000024s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: 
+			SELECT `id`, `account`, `password`
+			FROM `user`
+			WHERE `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI";
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000046s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000899s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000032s ]
+
+[ 2017-12-24T13:33:53+08:00 ] 118.203.127.106 /nefuer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000032s ]
+NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 101 行.
+NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 101 行.
+
+[ 2017-12-24T13:34:02+08:00 ] 118.203.127.106 /nefuer/home/index/unbinding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: 
+			UPDATE `user`
+			SET `openid` = ""
+			WHERE `id` = 5;
+		 [ RunTime:0.0027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000099s ]
+
+[ 2017-12-24T13:34:15+08:00 ] 118.203.127.106 /nefuer/home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+
+[ 2017-12-24T13:34:16+08:00 ] 118.203.127.106 /nefuer/index.php/Home/index/wxLogin?code=001blS8z135SOh0xh97z13O79z1blS8v&state=%2F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000023s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: 
+			SELECT `id`, `account`, `password`
+			FROM `user`
+			WHERE `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI";
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000046s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000826s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000843s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000027s ]
+
+[ 2017-12-24T13:37:29+08:00 ] 118.203.127.106 /nefuer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+
+[ 2017-12-24T13:37:30+08:00 ] 118.203.127.106 /nefuer/index.php/Home/index/wxLogin?code=011UHkO62nWKAK03sQP62WVAO62UHkOq&state=%2F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000028s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: 
+			SELECT `id`, `account`, `password`
+			FROM `user`
+			WHERE `openid` = "oAS95wUgR34Jg7q27-6odzUEPT50";
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000047s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000874s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000027s ]
+
+[ 2017-12-24T13:37:42+08:00 ] 118.203.127.106 /nefuer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 101 行.
+NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 101 行.
+
+[ 2017-12-24T13:37:47+08:00 ] 118.203.127.106 /nefuer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 101 行.
+NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 101 行.
+
+[ 2017-12-24T13:38:30+08:00 ] 118.203.127.106 /nefuer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000028s ]
+
+[ 2017-12-24T13:38:31+08:00 ] 118.203.127.106 /nefuer/index.php/Home/index/wxLogin?code=001pbjod0lGk3v1EBXmd0VEbod0pbjoo&state=%2F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: 
+			SELECT `id`, `account`, `password`
+			FROM `user`
+			WHERE `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI";
+			LIMIT 1
+		 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000029s ]
+
+[ 2017-12-24T13:39:20+08:00 ] 118.203.127.106 /nefuer/home/index/unbinding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: 
+			UPDATE `user`
+			SET `openid` = ""
+			WHERE `id` = 5;
+		 [ RunTime:0.0021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000087s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000121s ]
+
+[ 2017-12-24T13:40:21+08:00 ] 61.151.178.170 /nefuer/home/index/unbinding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000028s ]
+
+[ 2017-12-24T13:49:55+08:00 ] 118.203.127.106 /nefuer/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 101 行.
+NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 101 行.
+
+[ 2017-12-24T13:50:49+08:00 ] 118.203.127.106 /nefuer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+
+[ 2017-12-24T13:50:50+08:00 ] 118.203.127.106 /nefuer/index.php/Home/index/wxLogin?code=061c2W0J1ayJ650Zqk1J1v0T0J1c2W0I&state=%2F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: 
+			SELECT `id`, `account`, `password`
+			FROM `user`
+			WHERE `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI";
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000053s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000879s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000027s ]
+
+[ 2017-12-24T14:22:30+08:00 ] 118.203.123.64 /nefuer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+
+[ 2017-12-24T14:22:44+08:00 ] 118.203.127.106 /nefuer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000028s ]
+
+[ 2017-12-24T14:22:45+08:00 ] 118.203.127.106 /nefuer/index.php/Home/index/wxLogin?code=021YsALV1042dW0RGlIV1WztLV1YsALl&state=%2F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: 
+			SELECT `id`, `account`, `password`
+			FROM `user`
+			WHERE `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI";
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: account /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 89 行.
+NOTIC: [8] Undefined variable: password /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 89 行.
+NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 101 行.
+NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 101 行.
+
+[ 2017-12-24T14:22:55+08:00 ] 118.203.127.106 /nefuer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 101 行.
+NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 101 行.
+
+[ 2017-12-24T14:23:00+08:00 ] 118.203.127.106 /nefuer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 101 行.
+NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 101 行.
+
+[ 2017-12-24T14:25:15+08:00 ] 118.203.123.64 /nefuer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000028s ]
+
+[ 2017-12-24T14:25:16+08:00 ] 118.203.123.64 /nefuer/index.php/Home/index/wxLogin?code=021Ae52i2SVfsI05113i2Aad2i2Ae52y&state=%2F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: 
+			SELECT `id`, `account`, `password`
+			FROM `user`
+			WHERE `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI";
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: account /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 89 行.
+NOTIC: [8] Undefined variable: password /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 89 行.
+NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 101 行.
+NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 101 行.
+
+[ 2017-12-24T14:25:25+08:00 ] 118.203.123.64 /nefuer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000024s ]
+NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 101 行.
+NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 101 行.
 
