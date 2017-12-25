@@ -1691,3 +1691,40 @@ NOTIC: [8] Undefined variable: password /var/www/html/nefuer/Public/nefuer/Appli
 NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 66 行.
 NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 66 行.
 
+[ 2017-12-23T23:58:22+08:00 ] 123.151.77.48 /nefuer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+
+[ 2017-12-23T23:58:23+08:00 ] 123.151.77.48 /nefuer/index.php/Home/index/wxLogin?code=071Myovd2g72UD0Po9td27ckvd2MyovA&state=%2F
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: 
+			SELECT `id`, `account`, `password`
+			FROM `user`
+			WHERE `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI";
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: account /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: password /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 54 行.
+NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 66 行.
+
+[ 2017-12-23T23:58:28+08:00 ] 123.151.77.48 /nefuer/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+NOTIC: [2] Illegal string offset 'user' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 66 行.
+NOTIC: [2] Illegal string offset 'id' /var/www/html/nefuer/Public/nefuer/Application/Home/Controller/IndexController.class.php 第 66 行.
+

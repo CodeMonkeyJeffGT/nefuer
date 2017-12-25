@@ -1,0 +1,18 @@
+[ 2017-12-24T12:51:20+08:00 ] 118.203.127.106 /nefuer/loadPage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+ERR: 无法加载模块:LoadPage
+
+[ 2017-12-24T12:52:10+08:00 ] 118.203.127.106 /nefuer/a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+ERR: 无法加载模块:A
+
+[ 2017-12-24T12:59:00+08:00 ] 118.203.127.106 /nefuer/n1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+ERR: 无法加载模块:N1
+

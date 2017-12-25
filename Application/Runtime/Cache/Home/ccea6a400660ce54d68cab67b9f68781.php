@@ -62,23 +62,20 @@
 			$.ajax({
 				url : '/nefuer/index.php/V1/User/login',
 				method : 'post',
-        		contentType: "application/json; charset=utf-8",
 				dataType : 'json',
-				data : JSON.stringify({
-					account : $('#acc').val(),
+				data : {
+					username : $('#acc').val(),
 					password : $('#pwd').val()
-				}),
+				},
 				success : function(result)
 				{
 					document.getElementById('btn').disabled = false;
-					console.log(result);
-					alert(JSON.stringify(result));return;
 					/**
 					 * true : 成功
 					 */
 					if(result.code === 0)
 					{
-						// window.location.assign('/nefuer?ope=<?php echo ($ope); ?>');
+						window.location.assign('/nefuer?ope=<?php echo ($ope); ?>');
 					}
 					else
 					{

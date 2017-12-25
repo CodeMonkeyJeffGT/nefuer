@@ -1,0 +1,516 @@
+[ 2017-12-25T01:50:51+08:00 ] 118.203.125.66 /nefuer/v1/score
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+NOTIC: [8] Undefined index: children /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/ScoreController.class.php 第 163 行.
+NOTIC: [8] Undefined index: children /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/ScoreController.class.php 第 163 行.
+NOTIC: [8] Undefined index: children /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/ScoreController.class.php 第 163 行.
+NOTIC: [8] Undefined index: children /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/ScoreController.class.php 第 163 行.
+NOTIC: [8] Undefined index: children /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/ScoreController.class.php 第 163 行.
+NOTIC: [8] Undefined index: children /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/ScoreController.class.php 第 163 行.
+NOTIC: [8] Undefined index: children /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/ScoreController.class.php 第 163 行.
+NOTIC: [8] Undefined index: children /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/ScoreController.class.php 第 163 行.
+NOTIC: [8] Undefined index: children /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/ScoreController.class.php 第 163 行.
+NOTIC: [8] Undefined index: children /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/ScoreController.class.php 第 163 行.
+NOTIC: [8] Undefined index: children /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/ScoreController.class.php 第 163 行.
+NOTIC: [8] Undefined index: children /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/ScoreController.class.php 第 163 行.
+NOTIC: [8] Undefined index: children /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/ScoreController.class.php 第 163 行.
+NOTIC: [8] Undefined index: children /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/ScoreController.class.php 第 163 行.
+NOTIC: [8] Undefined index: children /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/ScoreController.class.php 第 163 行.
+NOTIC: [8] Undefined index: children /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/ScoreController.class.php 第 163 行.
+NOTIC: [8] Undefined index: children /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/ScoreController.class.php 第 163 行.
+NOTIC: [8] Undefined index: children /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/ScoreController.class.php 第 163 行.
+NOTIC: [8] Undefined index: children /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/ScoreController.class.php 第 163 行.
+NOTIC: [8] Undefined index: children /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/ScoreController.class.php 第 163 行.
+NOTIC: [8] Undefined index: children /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/ScoreController.class.php 第 163 行.
+NOTIC: [8] Undefined index: children /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/ScoreController.class.php 第 163 行.
+NOTIC: [8] Undefined index: children /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/ScoreController.class.php 第 163 行.
+NOTIC: [8] Undefined index: children /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/ScoreController.class.php 第 163 行.
+NOTIC: [8] Undefined index: children /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/ScoreController.class.php 第 163 行.
+NOTIC: [8] Undefined index: children /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/ScoreController.class.php 第 163 行.
+NOTIC: [8] Undefined index: children /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/ScoreController.class.php 第 163 行.
+NOTIC: [8] Undefined index: children /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/ScoreController.class.php 第 163 行.
+NOTIC: [8] Undefined index: children /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/ScoreController.class.php 第 163 行.
+NOTIC: [8] Undefined index: children /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/ScoreController.class.php 第 163 行.
+NOTIC: [8] Undefined index: children /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/ScoreController.class.php 第 163 行.
+NOTIC: [8] Undefined index: children /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/ScoreController.class.php 第 163 行.
+NOTIC: [8] Undefined index: children /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/ScoreController.class.php 第 163 行.
+NOTIC: [8] Undefined index: children /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/ScoreController.class.php 第 163 行.
+NOTIC: [8] Undefined index: children /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/ScoreController.class.php 第 163 行.
+NOTIC: [8] Undefined index: children /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/ScoreController.class.php 第 163 行.
+
+[ 2017-12-25T01:51:50+08:00 ] 101.226.225.59 /nefuer/v1/score
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000028s ]
+
+[ 2017-12-25T09:21:54+08:00 ] 223.104.17.234 /nefuer/v1/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+
+[ 2017-12-25T09:22:12+08:00 ] 223.104.17.234 /nefuer/v1/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+
+[ 2017-12-25T09:22:17+08:00 ] 223.104.17.234 /nefuer/v1/score/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+
+[ 2017-12-25T09:40:43+08:00 ] 118.203.125.66 /nefuer/v1/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+
+[ 2017-12-25T09:42:15+08:00 ] 118.203.125.66 /nefuer/v1/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+
+[ 2017-12-25T09:42:51+08:00 ] 118.203.125.66 /nefuer/v1/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+
+[ 2017-12-25T09:43:08+08:00 ] 118.203.125.66 /nefuer/v1/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+
+[ 2017-12-25T09:44:33+08:00 ] 118.203.125.66 /nefuer/v1/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+
+[ 2017-12-25T09:44:43+08:00 ] 118.203.125.66 /nefuer/v1/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000033s ]
+
+[ 2017-12-25T09:46:01+08:00 ] 118.203.125.66 /nefuer/v1/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+
+[ 2017-12-25T09:47:22+08:00 ] 118.203.125.66 /nefuer/v1/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+
+[ 2017-12-25T09:54:12+08:00 ] 118.203.125.66 /nefuer/v1/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+
+[ 2017-12-25T09:56:33+08:00 ] 118.203.125.66 /nefuer/v1/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000028s ]
+NOTIC: [8] Undefined index: account /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/UserController.class.php 第 14 行.
+
+[ 2017-12-25T09:57:11+08:00 ] 118.203.125.66 /nefuer/v1/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+NOTIC: [8] Undefined index: account /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/UserController.class.php 第 14 行.
+
+[ 2017-12-25T09:58:15+08:00 ] 118.203.125.66 /nefuer/v1/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+NOTIC: [8] Undefined index: account /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/UserController.class.php 第 14 行.
+
+[ 2017-12-25T10:07:16+08:00 ] 118.203.125.66 /nefuer/v1/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+NOTIC: [8] Undefined index: account /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/UserController.class.php 第 14 行.
+
+[ 2017-12-25T10:07:40+08:00 ] 118.203.125.66 /nefuer/v1/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+NOTIC: [8] Undefined index: account /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/UserController.class.php 第 14 行.
+
+[ 2017-12-25T10:07:48+08:00 ] 118.203.125.66 /nefuer/v1/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+
+[ 2017-12-25T10:08:11+08:00 ] 118.203.125.66 /nefuer/v1/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+NOTIC: [8] Undefined index: account /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/UserController.class.php 第 14 行.
+
+[ 2017-12-25T10:11:25+08:00 ] 118.203.125.66 /nefuer/v1/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000041s ]
+NOTIC: [8] Undefined index: account /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/UserController.class.php 第 14 行.
+
+[ 2017-12-25T10:11:33+08:00 ] 118.203.125.66 /nefuer/v1/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+
+[ 2017-12-25T10:11:37+08:00 ] 118.203.125.66 /nefuer/v1/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000024s ]
+
+[ 2017-12-25T10:12:27+08:00 ] 118.203.125.66 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+
+[ 2017-12-25T10:14:50+08:00 ] 118.203.125.66 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000034s ]
+
+[ 2017-12-25T10:14:57+08:00 ] 118.203.125.66 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000043s ]
+
+[ 2017-12-25T10:15:27+08:00 ] 118.203.125.66 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+
+[ 2017-12-25T10:16:27+08:00 ] 118.203.125.66 /nefuer/v1/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+NOTIC: [8] Undefined index: account /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/UserController.class.php 第 14 行.
+
+[ 2017-12-25T10:18:54+08:00 ] 118.203.125.66 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+
+[ 2017-12-25T10:21:37+08:00 ] 118.203.125.66 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+
+[ 2017-12-25T10:21:45+08:00 ] 118.203.125.66 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+
+[ 2017-12-25T10:22:59+08:00 ] 118.203.125.66 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+
+[ 2017-12-25T10:23:17+08:00 ] 118.203.125.66 /nefuer/v1/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000031s ]
+NOTIC: [8] Undefined index: account /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/UserController.class.php 第 14 行.
+
+[ 2017-12-25T10:23:22+08:00 ] 118.203.125.66 /nefuer/v1/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+
+[ 2017-12-25T10:24:16+08:00 ] 118.203.125.66 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000024s ]
+
+[ 2017-12-25T10:24:21+08:00 ] 118.203.125.66 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+
+[ 2017-12-25T10:25:05+08:00 ] 118.203.125.66 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000053s ]
+
+[ 2017-12-25T10:25:14+08:00 ] 118.203.125.66 /nefuer/v1/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+NOTIC: [8] Undefined index: account /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/UserController.class.php 第 14 行.
+
+[ 2017-12-25T10:27:31+08:00 ] 118.203.125.66 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+NOTIC: [8] Undefined index: account /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/UserController.class.php 第 14 行.
+
+[ 2017-12-25T10:30:19+08:00 ] 118.203.125.66 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000028s ]
+NOTIC: [8] Undefined index: account /var/www/html/nefuer/Public/nefuer/Application/V1/Controller/UserController.class.php 第 14 行.
+
+[ 2017-12-25T10:31:46+08:00 ] 118.203.125.66 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000028s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: 
+			SELECT `id`, `password`, `openid`
+			FROM `user`
+			WHERE `account` = 2015214310;
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+SQL: 
+			SELECT `id`
+			FROM `college`
+			WHERE `name` = "信息与计算机工程学院"
+			LIMIT 1;
+		 [ RunTime:0.0003s ]
+SQL: 
+			SELECT `id`
+			FROM `major`
+			WHERE `name` = "软件工程"
+			LIMIT 1;
+		 [ RunTime:0.0001s ]
+SQL: 
+			INSERT INTO `user`(`account`, `password`, `name`, `grade`, `c_id`, `m_id`, `openid`, `sex`, `last_upd`, `birthday`)
+			VALUES (2015214310, "753A524453F0BDFFA92B744FF38BB5C6", "谷田", 2015, 1, 1, "", 1, 0, 19970401);
+		 [ RunTime:0.0027s ]
+
+[ 2017-12-25T10:31:59+08:00 ] 118.203.125.66 /nefuer/v1/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: 
+			SELECT `id`, `password`, `openid`
+			FROM `user`
+			WHERE `account` = 2016214300;
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+SQL: 
+			SELECT `id`
+			FROM `college`
+			WHERE `name` = "信息与计算机工程学院"
+			LIMIT 1;
+		 [ RunTime:0.0003s ]
+SQL: 
+			SELECT `id`
+			FROM `major`
+			WHERE `name` = "软件工程"
+			LIMIT 1;
+		 [ RunTime:0.0001s ]
+SQL: 
+			INSERT INTO `user`(`account`, `password`, `name`, `grade`, `c_id`, `m_id`, `openid`, `sex`, `last_upd`, `birthday`)
+			VALUES (2016214300, "4A7D32D8EEE4998FD845A778365E1F28", "黄冲", 2016, 1, 1, "", 1, 0, 19971216);
+		 [ RunTime:0.0032s ]
+
+[ 2017-12-25T10:32:12+08:00 ] 118.203.125.66 /nefuer/v1/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+
+[ 2017-12-25T10:33:26+08:00 ] 118.203.125.66 /nefuer/v1/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: 
+			SELECT `id`, `password`, `openid`
+			FROM `user`
+			WHERE `account` = 2016214300;
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+
+[ 2017-12-25T10:34:15+08:00 ] 118.203.125.66 /nefuer/v1/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: 
+			SELECT `id`, `password`, `openid`
+			FROM `user`
+			WHERE `account` = 2016214300;
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+
+[ 2017-12-25T10:35:01+08:00 ] 118.203.125.66 /nefuer/v1/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: 
+			SELECT `id`, `password`, `openid`
+			FROM `user`
+			WHERE `account` = 2016214300;
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+
+[ 2017-12-25T10:38:20+08:00 ] 123.151.77.48 /nefuer/index.php/V1/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000024s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: 
+			SELECT `id`, `password`, `openid`
+			FROM `user`
+			WHERE `account` = 2015214310;
+			LIMIT 1
+		 [ RunTime:0.0002s ]
+SQL: 
+			SELECT `id`, `account`, `password`, `openid`
+			FROM `user`
+			WHERE `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI" OR `account` = 2015214310;
+		 [ RunTime:0.0002s ]
+SQL: 
+					UPDATE `user`
+					SET `password` = "753A524453F0BDFFA92B744FF38BB5C6", `openid` = "oAS95weWTdF9T1g6OqOAUm0WQHPI"
+					WHERE `id` = 6;
+				 [ RunTime:0.0053s ]
+
