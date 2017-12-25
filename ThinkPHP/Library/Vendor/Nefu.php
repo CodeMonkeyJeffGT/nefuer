@@ -94,7 +94,7 @@ class Nefu
 		{
 			$url = 'http://jwcnew.nefu.edu.cn/dblydx_jsxsd/xsks/xsksap_list';
 			$final = $this->curl_safe($url, $data);
-	        if(FALSE === $item)
+	        if(FALSE === $final)
 	        	return FALSE;
 	        $final = $this->toTestFinal($final);
 

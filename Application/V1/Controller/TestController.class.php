@@ -1,12 +1,12 @@
 <?php
 namespace V1\Controller;
 use V1\Common\ApiController;
-class ScoreController extends ApiController {
+class TestController extends ApiController {
 
     public function index()
     {
         $nefuer = \Nefu::getInstance($this->payload['user']['account'], $this->payload['user']['password'], $this->payload['user']['cookie']);
-        $score = $nefuer->userScore();
+        $score = $nefuer->userTest();
         if(FALSE === $score)
         {
             $this->apiError('获取成绩失败，请重新登录或查看教务系统是否可用');
@@ -156,14 +156,13 @@ class ScoreController extends ApiController {
                 $term['count'][$score[$i]['term']]['allScore'] += $score[$i]['score'] * $score[$i]['num'];
             }
 
-		    $term['score'][$score[$i]['term']][] = array(
-	                'name'      => $score[$i]['name'],
-	                'score'     => $score[$i]['score'],
-	                'num'       => $score[$i]['num'],
-	                'attribute' => $score[$i]['attribute'],
-	                'type'      => $score[$i]['type'],
-	                'children'  => $score[$i]['children'],
-		    );
+	    $term['score'][$score[$i]['term']][] = $score[$i];
+	    /**array(
+                'name'     => $score[$i]['name'],
+                'score'    => $score[$i]['score'],
+                'num'      => $score[$i]['num'],
+                'children' => $score[$i]['children'],
+	    );*/
         }
 
         foreach ($term['count'] as $key => $value)
