@@ -241,8 +241,9 @@ class ApiController extends RestController {
                 break;
             
             default:
-                $this->data = json_decode(@file_get_contents('php://input'), true);
-                break;
+                //$this->data = json_decode(@file_get_contents('php://input'), true);
+		$this->data = I('post.');
+		break;
         }
 	}
 
