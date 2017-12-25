@@ -162,7 +162,7 @@ class ScoreController extends ApiController {
 	                'num'       => $score[$i]['num'],
 	                'attribute' => $score[$i]['attribute'],
 	                'type'      => $score[$i]['type'],
-	                'children'  => $score[$i]['children'],
+	                'children'  => isset($score[$i]['children']) ? $score[$i]['children'] : array(),
 		    );
         }
 
