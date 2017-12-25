@@ -21,12 +21,14 @@ class TestController extends ApiController {
 	            $this->apiError('获取考试失败，请重新登录或查看教务系统是否可用');
 	        }
 	        if(empty($term[$i . '-1']['item']) && empty($term[$i . '-1']['final']))
+	        	unset($term[$i . '-1']);
         	$term[$i . '-2'] = $nefuer->userTest($i . '-' . ($i + 1) . '-2');
 	        if(FALSE === $term[$i . '-2'])
 	        {
 	            $this->apiError('获取考试失败，请重新登录或查看教务系统是否可用');
 	        }
 	        if(empty($term[$i . '-2']['item']) && empty($term[$i . '-2']['final']))
+	        	unset($term[$i . '-2']);
         }
         $test = $nefuer->userTest();
 
