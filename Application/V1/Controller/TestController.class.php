@@ -30,8 +30,34 @@ class TestController extends ApiController {
 	        if(empty($term[$i . '-2']['item']) && empty($term[$i . '-2']['final']))
 	        	unset($term[$i . '-2']);
         }
-        $test = $nefuer->userTest();
 
+        foreach ($term as $key => $value) {
+        	$tmpTerm = array();
+        	for($i = 0, $iloop = count($value['final']); $i < $iloop; $i++)
+        	{
+        		$tmpTerm[] = array(
+        			'name' => $value['final']['name'],
+        			'place' => $value['final']['place'],
+        			'seat' => $value['final']['seat'],
+        			'type' => 'final',
+        			'timeS' => substr($value['final']['time'], 0, 16),
+        			'timeE' => substr($value['final']['time'], 0, 11) . substr($value['final']['time'], 18, 5)
+        		);
+        	}
+        	for($i = 0, $iloop = count($value['item']); $i < $iloop; $i++)
+        	{
+        		$tmpTerm[] = array(
+        			'name' => $value['item']['name'],
+        			'place' => $value['item']['place'],
+        			'seat' => $value['item']['seat'],
+        			'type' => 'item',
+        			'timeS' => $value['item']['time_s'],
+        			'timeE' => $value['item']['time_e'],
+        			'step' => $value['item']['step']
+        		);
+        	}
+        	$term[$key] = qSort($tmpTerm);
+        }
 
         $this->payload['user']['cookie'] = $nefuer->getCookie();
     	$this->apiSuccess($term);
@@ -75,5 +101,10 @@ class TestController extends ApiController {
     // 		$this->wx->msgTemp($wx_remind[$i]['openid'], $template_id, $data, $url);
     // 	}
     // }
+
+    private function qSort($arr)
+    {
+    	return $arr;
+    }
 
 }
