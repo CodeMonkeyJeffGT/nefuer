@@ -71,14 +71,12 @@
 				success : function(result)
 				{
 					document.getElementById('btn').disabled = false;
-					console.log(result);
-					alert(JSON.stringify(result));return;
 					/**
 					 * true : 成功
 					 */
 					if(result.code === 0)
 					{
-						// window.location.assign('/nefuer?ope={$ope}');
+						window.location.assign('/nefuer?ope={$ope}');
 					}
 					else
 					{

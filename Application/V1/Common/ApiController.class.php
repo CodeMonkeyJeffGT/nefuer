@@ -52,7 +52,8 @@ class ApiController extends RestController {
 	{
 		parent::__construct();
         date_default_timezone_set('PRC');
-        header('Access-Control-Allow-Origin:*');
+		$origin = isset($_SERVER['HTTP_ORIGIN'])? $_SERVER['HTTP_ORIGIN'] : ''; 
+        header('Access-Control-Allow-Origin:' . $origin);
         header('Access-Control-Allow-Headers:token, Origin, X-Requested-With, Content-Type, Accept');
         header('Access-Control-Allow-Methods:PUT,POST,GET,DELETE,OPTIONS');
         header('X-Powered-By: 3.2.1');
