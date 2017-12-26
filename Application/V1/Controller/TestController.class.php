@@ -104,6 +104,56 @@ class TestController extends ApiController {
 
     private function qSort($arr)
     {
+    	$stack = array();
+    	$start = 0;
+    	$end = count($arr) - 1;
+    	$signS = $start;
+    	$signE = $end - 1;
+    	while($signS < $signE || count($stack) != 0)
+    	{
+    		if($signS == $signE)
+    		{
+    			if(($signE + 1) != $end)
+    			{
+	    			$tmp         = $arr[$signE];
+	    			$arr[$signE] = $arr[$end];
+	    			$arr[$end]   = $tmp;
+	    			array_push($stack, $end);
+	    			$end         = $signE;
+	    			$signS       = $start;
+    			}
+    			else
+    			{
+    				if($arr[$signE]['timeS'] > $arr[$end]['timeS'])
+    				{
+		    			$tmp         = $arr[$signE];
+		    			$arr[$signE] = $arr[$end];
+		    			$arr[$end]   = $tmp;
+    				}
+    				$start = $end;
+    				$end   = array_pop($stack);
+	    			$signE = $end - 1;
+    			}
+
+    		}
+    		else
+    		{
+    			while($signS < $signE && $arr[$signS]['timeS'] < $arr[$end]['timeS'])
+    			{
+    				$signS++;
+    			}
+    			while($signS < $signE && $arr[$signE]['timeS'] > $arr[$end]['timeS'])
+    			{
+    				$signE--;
+    			}
+    			if($signS != $signE)
+    			{
+	    			$tmp         = $arr[$signE];
+	    			$arr[$signE] = $arr[$signS];
+	    			$arr[$signS]   = $tmp;
+    			}
+    		}
+    	}
     	return $arr;
     }
 
