@@ -59,7 +59,7 @@ class TestController extends ApiController {
         			'done' => $value['item'][$i]['time_s'] < $now
         		);
         	}
-        	$term[$key] = $this->qSort($tmpTerm));
+        	$term[$key] = $this->qSort($tmpTerm);
         }
 
         $this->payload['user']['cookie'] = $nefuer->getCookie();
