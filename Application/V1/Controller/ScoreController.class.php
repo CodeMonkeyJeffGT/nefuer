@@ -156,12 +156,14 @@ class ScoreController extends ApiController {
                 $term['count'][$score[$i]['term']]['allScore'] += $score[$i]['score'] * $score[$i]['num'];
             }
 
-            $term['score'][$score[$i]['term']][] = array(
-                'name'     => $score[$i]['name'],
-                'score'    => $score[$i]['score'],
-                'num'      => $score[$i]['num'],
-                'children' => $score[$i]['children'],
-            );
+		    $term['score'][$score[$i]['term']][] = array(
+	                'name'      => $score[$i]['name'],
+	                'score'     => $score[$i]['score'],
+	                'num'       => $score[$i]['num'],
+	                'attribute' => $score[$i]['attribute'],
+	                'type'      => $score[$i]['type'],
+	                'children'  => isset($score[$i]['children']) ? $score[$i]['children'] : array(),
+		    );
         }
 
         foreach ($term['count'] as $key => $value)
@@ -197,43 +199,43 @@ class ScoreController extends ApiController {
     	$this->apiSuccess($term);
     }
 
-    private function send_remind($wx_remind)
-    {
-    	$this->wxInit();
-        $template_id = '';
-        $url = '';
-        $data = $wx_remind;
-    	for($i = 0, $iloop = count($wx_remind); $i < $iloop; $i++)
-    	{
-    		switch ($wx_remind[$i]['type']) {
-    			case 'binding':
-    				$template_id = '';
-    				$url = '';
-                    $data = array(
-                        "first" => array(
-                            "value" => "",
-                            "color" => ""
-                        ),
-                        "keyword1" => array(
-                            "value" => '',
-                            "color" => "#173177"
-                        ),
-                        "keyword2" =>  array(
-                            "value" => date('Y-m-d H:i:s', time()),
-                            "color" => "#173177"
-                        ),
-                        "remark" => array(
-                            "value" => "",
-                            "color" => ""
-                        )
-                    );
-    				break;
+    // private function send_remind($wx_remind)
+    // {
+    // 	$this->wxInit();
+    //     $template_id = '';
+    //     $url = '';
+    //     $data = $wx_remind;
+    // 	for($i = 0, $iloop = count($wx_remind); $i < $iloop; $i++)
+    // 	{
+    // 		switch ($wx_remind[$i]['type']) {
+    // 			case 'binding':
+    // 				$template_id = '';
+    // 				$url = '';
+    //                 $data = array(
+    //                     "first" => array(
+    //                         "value" => "",
+    //                         "color" => ""
+    //                     ),
+    //                     "keyword1" => array(
+    //                         "value" => '',
+    //                         "color" => "#173177"
+    //                     ),
+    //                     "keyword2" =>  array(
+    //                         "value" => date('Y-m-d H:i:s', time()),
+    //                         "color" => "#173177"
+    //                     ),
+    //                     "remark" => array(
+    //                         "value" => "",
+    //                         "color" => ""
+    //                     )
+    //                 );
+    // 				break;
     			
-    			default:
-    				break;
-    		}
-    		$this->wx->msgTemp($wx_remind[$i]['openid'], $template_id, $data, $url);
-    	}
-    }
+    // 			default:
+    // 				break;
+    // 		}
+    // 		$this->wx->msgTemp($wx_remind[$i]['openid'], $template_id, $data, $url);
+    // 	}
+    // }
 
 }

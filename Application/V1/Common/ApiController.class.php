@@ -77,6 +77,7 @@ class ApiController extends RestController {
 	 */
 	protected function apiSuccess(array $data = array())
 	{
+		$data['requestData'] = $this->data;
 		$jwt = $this->sendJwt();
 		if(in_array('response', $this->jwtSendWay))
 			$data['jwt'] = $jwt;
@@ -92,7 +93,7 @@ class ApiController extends RestController {
 	 */
 	protected function apiError(string $message)
 	{
-		$data = array();
+		$data = array('requestData' => $this->data);
 		$jwt = $this->sendJwt();
 		if(in_array('response', $this->jwtSendWay))
 			$data['jwt'] = $jwt;
@@ -242,8 +243,9 @@ class ApiController extends RestController {
                 break;
             
             default:
-                $this->data = json_decode(@file_get_contents('php://input'), true);
-                break;
+                //$this->data = json_decode(@file_get_contents('php://input'), true);
+		$this->data = I('post.');
+		break;
         }
 	}
 

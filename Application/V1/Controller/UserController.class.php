@@ -7,11 +7,11 @@ class UserController extends ApiController {
 
     public function login()
     {
-    	if(empty($this->data['account']))
+    	if(empty($this->data['username']))
     		$this->apiError('请输入账号');
     	if(empty($this->data['password']))
     		$this->apiError('请输入密码');
-    	$account = $this->data['account'];
+    	$account = $this->data['username'];
     	$password = strtoupper(md5($this->data['password']));
     	$nefuer = \Nefu::getInstance($account, $password);
     	if(FALSE === $nefuer)

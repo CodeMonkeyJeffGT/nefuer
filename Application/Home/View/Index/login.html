@@ -62,12 +62,11 @@
 			$.ajax({
 				url : '/nefuer/index.php/V1/User/login',
 				method : 'post',
-        		contentType: "application/json; charset=utf-8",
 				dataType : 'json',
-				data : JSON.stringify({
-					account : $('#acc').val(),
+				data : {
+					username : $('#acc').val(),
 					password : $('#pwd').val()
-				}),
+				},
 				success : function(result)
 				{
 					document.getElementById('btn').disabled = false;
