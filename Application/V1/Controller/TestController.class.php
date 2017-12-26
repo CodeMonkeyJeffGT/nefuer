@@ -31,6 +31,7 @@ class TestController extends ApiController {
 	        	unset($term[$i . '-2']);
         }
 
+        $now = date('Y-m-d H:i');
         foreach ($term as $key => $value) {
         	$tmpTerm = array();
         	for($i = 0, $iloop = count($value['final']); $i < $iloop; $i++)
@@ -41,7 +42,8 @@ class TestController extends ApiController {
         			'seat' => $value['final'][$i]['seat'],
         			'type' => 'final',
         			'timeS' => substr($value['final'][$i]['time'], 0, 16),
-        			'timeE' => (substr($value['final'][$i]['time'], 0, 11) . substr($value['final'][$i]['time'], 17, 5))
+        			'timeE' => (substr($value['final'][$i]['time'], 0, 11) . substr($value['final'][$i]['time'], 17, 5)),
+        			'done' => substr($value['final'][$i]['time'], 0, 16) < $now
         		);
         	}
         	for($i = 0, $iloop = count($value['item']); $i < $iloop; $i++)
@@ -53,10 +55,11 @@ class TestController extends ApiController {
         			'type' => 'item',
         			'timeS' => $value['item'][$i]['time_s'],
         			'timeE' => $value['item'][$i]['time_e'],
-        			'step' => $value['item'][$i]['step']
+        			'step' => $value['item'][$i]['step'],
+        			'done' => $value['item'][$i]['time_s'] < $now
         		);
         	}
-        	$term[$key] = $this->qSort($tmpTerm);
+        	$term[$key] = $this->qSort($tmpTerm));
         }
 
         $this->payload['user']['cookie'] = $nefuer->getCookie();
@@ -157,7 +160,7 @@ class TestController extends ApiController {
 				$signE = $end - 1;
 			}
 		}
-		return array_reverse($arr);
+		return $arr;
 	}
 
 }
