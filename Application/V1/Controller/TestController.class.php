@@ -56,8 +56,7 @@ class TestController extends ApiController {
         			'step' => $value['item'][$i]['step']
         		);
         	}
-        	// $term[$key] = $this->qSort($tmpTerm);
-        	$term[$key] = $tmpTerm;
+        	$term[$key] = $this->qSort($tmpTerm);
         }
 
         $this->payload['user']['cookie'] = $nefuer->getCookie();
