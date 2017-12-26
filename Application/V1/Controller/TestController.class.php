@@ -41,7 +41,7 @@ class TestController extends ApiController {
         			'seat' => $value['final'][$i]['seat'],
         			'type' => 'final',
         			'timeS' => substr($value['final'][$i]['time'], 0, 16),
-        			'timeE' => (substr($value['final'][$i]['time'], 0, 11) . substr($value['final'][$i]['time'], 18, 5))
+        			'timeE' => (substr($value['final'][$i]['time'], 0, 11) . substr($value['final'][$i]['time'], 17, 5))
         		);
         	}
         	for($i = 0, $iloop = count($value['item']); $i < $iloop; $i++)
