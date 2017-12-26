@@ -36,24 +36,24 @@ class TestController extends ApiController {
         	for($i = 0, $iloop = count($value['final']); $i < $iloop; $i++)
         	{
         		$tmpTerm[] = array(
-        			'name' => $value['final']['name'],
-        			'place' => $value['final']['place'],
-        			'seat' => $value['final']['seat'],
+        			'name' => $value['final'][$i]['name'],
+        			'place' => $value['final'][$i]['place'],
+        			'seat' => $value['final'][$i]['seat'],
         			'type' => 'final',
-        			'timeS' => substr($value['final']['time'], 0, 16),
-        			'timeE' => substr($value['final']['time'], 0, 11) . substr($value['final']['time'], 18, 5)
+        			'timeS' => substr($value['final'][$i]['time'], 0, 16),
+        			'timeE' => substr($value['final'][$i]['time'], 0, 11) . substr($value['final']['time'], 18, 5)
         		);
         	}
         	for($i = 0, $iloop = count($value['item']); $i < $iloop; $i++)
         	{
         		$tmpTerm[] = array(
-        			'name' => $value['item']['name'],
-        			'place' => $value['item']['place'],
-        			'seat' => $value['item']['seat'],
+        			'name' => $value['item'][$i]['name'],
+        			'place' => $value['item'][$i]['place'],
+        			'seat' => $value['item'][$i]['seat'],
         			'type' => 'item',
-        			'timeS' => $value['item']['time_s'],
-        			'timeE' => $value['item']['time_e'],
-        			'step' => $value['item']['step']
+        			'timeS' => $value['item'][$i]['time_s'],
+        			'timeE' => $value['item'][$i]['time_e'],
+        			'step' => $value['item'][$i]['step']
         		);
         	}
         	$term[$key] = $this->qSort($tmpTerm);
