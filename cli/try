@@ -100,7 +100,7 @@ function update_user($user)
 	}
 
 	global $wx;
-	for($i = 0, $iloop = count($wx_send); $i < 0; $i++)
+	for($i = 0, $iloop = count($wx_send); $i < $iloop; $i++)
 	{
 		$msg_data = array(
 			'first' => array(
