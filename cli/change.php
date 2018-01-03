@@ -15,7 +15,7 @@ $result = mysqli_query($db, $sql);
 $status = mysqli_fetch_row($result)[0] != -1 ? '关闭' : '开启';
 $change = $status == '关闭' ? '开启' : '关闭';
 
-if($result[0] == -1)
+if($status != '关闭')
 {
 	$sql = 'SELECT count(*) FROM `score_record` WHERE `acc` = ' . $_SESSION['acc'];
 	$result = mysqli_query($db, $sql);
