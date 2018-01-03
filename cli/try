@@ -12,8 +12,7 @@ mysqli_select_db($db, 'nefuer');
 $sql = '
 	SELECT `user`.`acc`, `user`.`pwd`, `user`.`last_upd`, `wx_user`.`openid`
 	FROM `user`, `wx_user`
-	WHERE `user`.`acc` = `wx_user`.`acc` AND `wx_user`.`openid` <> "" AND `user`.`acc` = 2015214310
-	LIMIT 10;
+	WHERE `user`.`acc` = `wx_user`.`acc` AND `wx_user`.`openid` <> "" AND `acc`.`last_upd` <> -1
 ';
 $result = mysqli_query($db, $sql);
 for($i = 0, $len = mysqli_num_rows($result); $i < $len; $i++)
@@ -128,7 +127,7 @@ function update_user($user)
 				'color' => ''
 			)
 		);
-		var_dump($wx->msgTemp($user[3], 'Zu1NRhwKYW1jsdmD9dE8ukK3g4iCwKzKFy_wlfROMZE', $msg_data, 'http://nefuer.jblog.info'));
+		$wx->msgTemp($user[3], 'Zu1NRhwKYW1jsdmD9dE8ukK3g4iCwKzKFy_wlfROMZE', $msg_data, 'http://nefuer.jblog.info');
 	}
 }
 
