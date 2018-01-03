@@ -71,8 +71,8 @@ mysqli_close($db); ?>
 				success : function(result)
 				{
 					document.getElementById('btn').disabled = false;
-					$('#jumbotron').html('当前状态：' + result['status']);
-					$('#btn').html(result['change']);
+					$('.jumbotron').html('当前状态：' + result['status']);
+					$('.btn').html(result['change']);
 				},
 				error : function(XMLHttpRequest, textStatus, errorThrown) {
 					alert(XMLHttpRequest.responseText);
