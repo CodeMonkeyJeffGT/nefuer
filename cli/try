@@ -108,19 +108,19 @@ function update_user($user)
 				'color' => ''
 			),
 			'keynote1' => array(
-				'value' => $wxSecret[$i][1]['name'],
+				'value' => $wx_send[$i][1]['name'],
 				'color' => '#173177'
 			),
 			'keynote2' => array(
-				'value' => $wxSecret[$i][1]['type'],
+				'value' => $wx_send[$i][1]['type'],
 				'color' => '#173177'
 			),
 			'keynote3' => array(
-				'value' => $wxSecret[$i][1]['score'],
+				'value' => $wx_send[$i][1]['score'],
 				'color' => '#173177'
 			),
 			'keynote4' => array(
-				'value' => $wxSecret[$i][1]['num'],
+				'value' => $wx_send[$i][1]['num'],
 				'color' => '#173177'
 			),
 			'remark' => array(
