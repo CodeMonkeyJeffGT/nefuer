@@ -45,7 +45,7 @@ mysqli_close($db); ?>
 						<form class="form-horizontal" onsubmit="return false;" role="form">
 							<div class="form-group">
 								<div class="col-sm-offset-2 col-sm-10">
-									 <button type="submit" class="btn btn-default" id="btn" onclick="changeStatus();" style="float: right;padding-left: 30px; padding-right: 30px"><?=$change?></button>
+									 <button type="submit" class="btn btn-default" style="width: 100%" id="btn" onclick="changeStatus();" style="float: right;padding-left: 30px; padding-right: 30px"><?=$change?></button>
 								</div>
 							</div>
 						</form>
