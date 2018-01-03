@@ -128,7 +128,7 @@ function update_user($user)
 				'color' => ''
 			)
 		);
-		var_dump($wx->msgTemp($user[3], 'Zu1NRhwKYW1jsdmD9dE8ukK3g4iCwKzKFy_wlfROMZE', $msg_data, 'http://nefuer.jblog.info')), "#\n";
+		var_dump($wx->msgTemp($user[3], 'Zu1NRhwKYW1jsdmD9dE8ukK3g4iCwKzKFy_wlfROMZE', $msg_data, 'http://nefuer.jblog.info'));
 	}
 }
 
