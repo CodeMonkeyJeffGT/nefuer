@@ -15,6 +15,7 @@ $sql = '
 	WHERE `user`.`acc` = `wx_user`.`acc` AND `wx_user`.`openid` <> "" AND `user`.`last_upd` <> -1
 ';
 $result = mysqli_query($db, $sql);
+$wx_send_record = array();
 for($i = 0, $len = mysqli_num_rows($result); $i < $len; $i++)
 {
 	$user = mysqli_fetch_row($result);
@@ -28,6 +29,7 @@ for($i = 0, $len = mysqli_num_rows($result); $i < $len; $i++)
 	}
 }
 mysqli_close($db);
+file_put_contents('./record/' . time(), json_encode($wx_send_record));
 
 function update_user($user)
 {
@@ -64,37 +66,15 @@ function update_user($user)
 			$wx_send[] = array('new', $scores[$i]);
 			$upd_score[] = array('INSERT', $scores[$i]);
 		}
-		else
-		{
-			if($scores[$i]['score'] != $scoresExt[$ext][3])
-			{
-				$wx_send[] = array('update', $scores[$i]);
-				$scores[$i]['id'] = $scoresExt[$ext][0];
-				$upd_score[] = array('REPLACE', $scores[$i]);
-			}
-		}
 	}
 	$sqlInsert = '';
-	$sqlReplace = '';
 	for($i = 0, $iloop = count($upd_score); $i < $iloop; $i++)
 	{
-		if($upd_score[$i][0] == 'INSERT')
-		{
-			$sqlInsert .= '(' . $user[0] . ', "' . $upd_score[$i][1]['code'] . '", "' . $upd_score[$i][1]['type'] . '", "' . $upd_score[$i][1]['score'] . '"),';
-		}
-		else
-		{
-			$sqlReplace .= '(' . $upd_score[$i][1]['id'] . ', ' . $user[0] . ', "' . $upd_score[$i][1]['code'] . '", "' . $upd_score[$i][1]['type'] . '", "' . $upd_score[$i][1]['score'] . '"),';
-		}
+		$sqlInsert .= '(' . $user[0] . ', "' . $upd_score[$i][1]['code'] . '", "' . $upd_score[$i][1]['type'] . '", "' . $upd_score[$i][1]['score'] . '"),';
 	}
 	if($sqlInsert !== '')
 	{
 		$sql = 'INSERT INTO `score_record`(`acc`, `lesson`, `type`, `score`) VALUES' . substr($sqlInsert, 0, strlen($sqlInsert) - 1) . ';';
-		mysqli_query($db, $sql);
-	}
-	if($sqlReplace !== '')
-	{
-		$sql = 'REPLACE INTO `score_record`(`id`, `acc`, `lesson`, `type`, `score`) VALUES' . substr($sqlReplace, 0, strlen($sqlReplace) - 1) . ';';
 		mysqli_query($db, $sql);
 	}
 
