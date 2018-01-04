@@ -29,7 +29,9 @@ for($i = 0, $len = mysqli_num_rows($result); $i < $len; $i++)
 	}
 }
 mysqli_close($db);
-file_put_contents('./record/' . time(), json_encode($wx_send_record));
+$filename = './record/' . time() . '.txt';
+touch($filename)
+file_put_contents($filename, json_encode($wx_send_record));
 
 function update_user($user)
 {
