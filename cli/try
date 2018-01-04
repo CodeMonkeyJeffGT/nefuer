@@ -7,7 +7,7 @@ $wxAppid  = 'wx00c21901537bc5a6';
 $wxSecret = '821ab731206d8993146f3d151d6217b5';
 
 $db = mysqli_connect('localhost:3306', 'root', 'GT338570');
-// $wx = new Wx($wxAppid, $wxSecret);
+$wx = new Wx($wxAppid, $wxSecret);
 mysqli_select_db($db, 'nefuer');
 $sql = '
 	SELECT `user`.`acc`, `user`.`pwd`, `user`.`last_upd`, `wx_user`.`openid`
