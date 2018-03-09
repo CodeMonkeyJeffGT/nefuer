@@ -1,3 +1,0 @@
-<?php
-//000000007200a:3:{s:6:"openid";s:28:"oAS95weWTdF9T1g6OqOAUm0WQHPI";s:6:"expire";i:1514102160;s:4:"user";a:4:{s:2:"id";s:1:"5";s:7:"account";s:10:"2015214310";s:8:"password";s:32:"753A524453F0BDFFA92B744FF38BB5C6";s:6:"cookie";s:74:"JSESSIONID=L2X1h11J8F1d2DbgvZf1gV41LTfpnG03rpTLn3GK8QBG2C9LXNVc!-780880892";}}
-?>
