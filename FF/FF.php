@@ -1,19 +1,38 @@
 <?php
 namespace FF;
+use FF\Core\Config;
+use FF\Core\Route;
 
 class FF{
 
-	public static function run(string $configFile = '') {
+	public static function run() {
+		//注册自动加载
 		spl_autoload_register('\FF\FF::auto_load');
-		include ROOT . 'FF/Core/functions.php';
 
+		//引入配置
+		Config::init();
 
+		//调试模式
+		if (Config::get('DEBUG')) {
+			ini_set('display_error', 'On');
+		} else {
+			ini_set('display_error', 'Off');
+		}
 
-		var_dump(\FF\Core\Route::explain());
+		//自动加载
+		if (count(Config::get('AUTOLOAD')) > 0) {
+			\FF\Core\Autoload::init();
+		}
+
+		list($controller, $action, $param) = Route::explain();
+		$controller = '\\App\\Controller\\' . $controller . 'Controller';
+		$controller = new $controller;
+		$param = $controller->init($param);
+		$controller->$action($param);
 	}
 
 	public static function auto_load($className) {
-		include_once(ROOT . str_replace('\\', '/', $className) . '.php');
+		ifile(ROOT . str_replace('\\', '/', $className) . '.php', true);
 	}
 
 }

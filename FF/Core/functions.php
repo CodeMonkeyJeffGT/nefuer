@@ -1,17 +1,47 @@
 <?php
-namespace FF\Core;
 
-function ele(array $array, string $element, $default = null) {
-	if (isset($array[$element])) {
-		return $array[$element];
-	} elseif (isset($array->$element)) {
-		return $array->$element;
+function ele(array $array, string $element, $default = null, $hard = true) {
+	if ($hard) {
+		if (isset($array[$element])) {
+			return $array[$element];
+		} elseif (isset($array->$element)) {
+			return $array->$element;
+		} else {
+			return $default;
+		}
 	} else {
-		return $default;
+		if ( ! empty($array[$element])) {
+			return $array[$element];
+		} elseif ( ! empty($array->$element)) {
+			return $array->$element;
+		} else {
+			return $default;
+		}
 	}
 }
 
-function input(string $name, $default = null) {
+function config($name = '.', $value = null, $get = true) {
+	if ($get) {
+		return \FF\Core\Config::get($name, $value);
+	} else {
+		if ($name === '.') {
+			return false;
+		}
+		\FF\Core\Config::set($name, $value);
+	}
+}
+
+function p($value, $var = true) {
+	echo '<pre>';
+	if($var) {
+		var_dump($value);
+	} else {
+		print_r($value);
+	}
+	echo '</pre>';
+}
+
+function input(string $name = '', $default = null) {
 	$input = array();
 	$name = explode('.', $name);
 	switch (strtolower($name[0])) {
@@ -28,11 +58,12 @@ function input(string $name, $default = null) {
 			break;
 
 		case 'php':
-			$input = parse_str(file_get_contents('php://input'), true);
+			$input = parse_str(file_get_contents('php://input'));
 			break;
 
 		case 'header':
 			$input = $_SERVER;
+			break;
 
 		case 'session':
 			$input = $_SESSION;
@@ -41,12 +72,14 @@ function input(string $name, $default = null) {
 		case 'cookie':
 			$input = $_COOKIE;
 			break;
-		
-		if (isset($name[1])) {
-			return ele($input, $name[1], $default);
-		} else {
-			return $input;
-		}
+		default:
+			$input = $_REQUEST;
+			break;
+	}
+	if ( ! empty($name[1])) {
+		return ele($input, $name[1], $default);
+	} else {
+		return $input;
 	}
 }
 
@@ -84,5 +117,21 @@ function cookie(string $name, $value = null, $config = array()) {
 			}
 		} else {
 		}
+	}
+}
+
+function rfile($filename) {
+	if (is_file($filename)) {
+		return file_get_contents($filename);
+	} else {
+		return null;
+	}
+}
+
+function ifile($filename, $once = false) {
+	if (is_file($filename)) {
+		return $once ? include_once($filename) : include($filename);
+	} else {
+		return null;
 	}
 }
