@@ -20,6 +20,10 @@ function ele(array $array, string $element, $default = null, $hard = true) {
 	}
 }
 
+function model($name) {
+	return new \App\Model\UserModel();
+}
+
 function config($name = '.', $value = null, $get = true) {
 	if ($get) {
 		return \FF\Core\Config::get($name, $value);

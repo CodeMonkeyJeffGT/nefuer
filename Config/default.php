@@ -11,4 +11,9 @@ return array(
 
 	'PARAM_METHOD' => 'normal',
 
+	'DB_HOST' => 'localhost',
+	'DB_DBNAME' => '',
+	'DB_USERNAME' => '',
+	'DB_PASSWORD' => '',
+
 );

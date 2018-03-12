@@ -6,9 +6,10 @@ class Controller{
 
 	protected $ff_config = array();
 	protected $paramMethod = null;
+	private $assignData = array();
 
 	public function __construct() {
-		config($this->ff_config, null, false);
+		Config($this->ff_config, null, false);
 	}
 
 	public function init($param) {
@@ -17,6 +18,19 @@ class Controller{
 			$this->paramMethod = Config::get('PARAM_METHOD');
 		}
 		return $this->paramDecode($param);
+	}
+
+	protected function assign($data) {
+		$this->assignData = array_merge($this->assignData, $data);
+	}
+
+	protected function display($page) {
+		extract($this->assignData);
+		$page = VIEW . $page . '.php';
+		if ( ! is_file($page)) {
+			throw new \Exception($page . '页面不存在');die;
+		}
+		include($page);
 	}
 
 	private function paramDecode($param) {
