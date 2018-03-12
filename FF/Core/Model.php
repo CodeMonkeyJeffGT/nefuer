@@ -14,7 +14,7 @@ class Model extends \PDO {
 		}
 	}
 
-	public function query($sql, $param) {
+	public function query($sql, $param = array()) {
 		$st = $this->prepare($sql);
 		if ( ! is_array($param)) {
 			$st->bindParam(1, $param);
@@ -24,6 +24,12 @@ class Model extends \PDO {
 			}
 		}
 		$st->execute();
-		return $st->fetchAll();
+		$result = $st->fetchAll();
+		for ($i = 0, $iLoop = count($result); $i < $iLoop; $i++) {
+			for ($j = 0, $jLoop = count($result[$i]) / 2; $j < $jLoop; $j++) {
+				unset($result[$i][$j]);
+			}
+		}
+		return $result;
 	}
 }
