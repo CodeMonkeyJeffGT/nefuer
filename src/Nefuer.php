@@ -46,7 +46,9 @@ class Nefuer extends Base
     public function info()
     {
         $content = $this->stuRequest(self::STU_INFO);
-
+        if (isset($content['code'])) {
+            return $content;
+        }
         return $this->toInfo($content);
     }
 
@@ -56,7 +58,9 @@ class Nefuer extends Base
     public function scoreAll()
     {
         $content = $this->stuRequest(self::STU_SCORE_ALL);
-
+        if (isset($content['code'])) {
+            return $content;
+        }
         return $this->toAll($content);
     }
 
@@ -66,7 +70,9 @@ class Nefuer extends Base
     public function scoreItem()
     {
         $content = $this->stuRequest(self::STU_SCORE_ITEM);
-
+        if (isset($content['code'])) {
+            return $content;
+        }
         return $this->toItem($content);
     }
 
