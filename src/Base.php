@@ -119,7 +119,7 @@ class Base
 
     public function getAccount()
     {
-        return $this->account;
+        return $this->username;
     }
 
     public function getCookie()
