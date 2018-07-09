@@ -8,6 +8,10 @@ use GuzzleHttp\Psr7\Request;
 
 class Base
 {
+    protected $username;
+    protected $password;
+    protected $in = false;
+
     private static $config;     //配置文件
     private static $client;     //guzzle Client
 
@@ -111,6 +115,11 @@ class Base
     {
         $uri = str_replace('http:', '', str_replace('/', '', self::$config['baseUri']));
         $this->cookie = CookieJar::fromArray($cookie, $uri);
+    }
+
+    public function getAccount()
+    {
+        return $this->account;
     }
 
     public function getCookie()

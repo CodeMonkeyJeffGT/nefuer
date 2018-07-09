@@ -8,10 +8,6 @@ use Nefu\Base;
  */
 class Nefuer extends Base
 {
-    private $username;
-    private $password;
-    private $in = false;
-
     /**
      * 登录并返回结果
      */
