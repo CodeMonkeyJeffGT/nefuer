@@ -105,7 +105,7 @@ class Nefuer extends Base
         $info['name'] = str_replace('&nbsp;', '', $array[1][1]);
         $info['sex'] = str_replace('&nbsp;', '', $array[1][3]);
         $info['nation'] = str_replace('&nbsp;', '', $array[2][3]);
-        $info['ID'] = $array[9][3];
+        $info['ID'] = str_replace('&nbsp;', '', $array[9][3]);
 
         return $info;
     }
