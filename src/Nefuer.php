@@ -102,9 +102,9 @@ class Nefuer extends Base
         
         $info['college'] = str_replace('院系：', '', $array[0][0]);
         $info['major'] = str_replace('专业：', '', $array[0][1]);
-        $info['name'] = str_replace(' ', '', $array[1][1]);
-        $info['sex'] = str_replace(' ', '', $array[1][3]);
-        $info['nation'] = str_replace(' ', '', $array[2][3]);
+        $info['name'] = str_replace('&nbsp;', '', $array[1][1]);
+        $info['sex'] = str_replace('&nbsp;', '', $array[1][3]);
+        $info['nation'] = str_replace('&nbsp;', '', $array[2][3]);
         $info['ID'] = $array[9][3];
 
         return $info;
