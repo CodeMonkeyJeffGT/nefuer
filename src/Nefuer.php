@@ -20,13 +20,17 @@ class Nefuer extends Base
             $this->in = true;
             return true;
         } else {
-            $response = $this->request(
-                static::LOGIN,
-                array(
-                    'USERNAME' => $this->username,
-                    'PASSWORD' => $this->password,
-                )
-            );
+            try {
+                $response = $this->request(
+                    static::LOGIN,
+                    array(
+                        'USERNAME' => $this->username,
+                        'PASSWORD' => $this->password,
+                    )
+                );
+            } catch (\Exception $e) {
+                return $this->return(self::ERR_LOGIN_PWD_WRONG);
+            }
             $code = $response->getStatusCode();
             switch ($code) {
                 case 302:
@@ -265,9 +269,13 @@ class Nefuer extends Base
             return $this->return(self::ERR_LOGIN_NO);
         }
         
-        $response = $this->request(
-            $name
-        );
+        try {
+            $response = $this->request(
+                $name
+            );
+        } catch (\Exception $e) {
+            return $this->return(self::ERR_JWC_UNAVALIABLE);
+        }
 
         $code = $response->getStatusCode();
         if ($code != 200) {
