@@ -29,7 +29,7 @@ class Nefuer extends Base
                     )
                 );
             } catch (\Exception $e) {
-                return $this->return(self::ERR_LOGIN_PWD_WRONG);
+                return $this->return(self::ERR_JWC_UNAVALIABLE);
             }
             $code = $response->getStatusCode();
             switch ($code) {
