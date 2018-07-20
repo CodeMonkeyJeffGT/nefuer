@@ -39,7 +39,7 @@ class Base
     /**
      * 构造器，实例化guzzle Client
      */
-    public function __construct($timeout = 2.0)
+    public function __construct($timeout = 5.0)
     {
         if (empty(self::$config)) {
             try {
