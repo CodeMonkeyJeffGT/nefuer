@@ -36,16 +36,16 @@ class Nefuer extends Base
                 case 302:
                     $this->in = true;
                     return $this->return();
-                case 200: 
+                case 200:
                     return $this->return(self::ERR_LOGIN_PWD_WRONG);
                 default:
-                    return $this->return(self::ERR_JWC_UNAVALIABLE);                
+                    return $this->return(self::ERR_JWC_UNAVALIABLE);
             }
         }
     }
 
     /**
-     * 
+     *
      */
     public function info()
     {
@@ -57,7 +57,7 @@ class Nefuer extends Base
     }
 
     /**
-     * 
+     *
      */
     public function scoreAll()
     {
@@ -69,7 +69,7 @@ class Nefuer extends Base
     }
 
     /**
-     * 
+     *
      */
     public function scoreItem()
     {
@@ -97,13 +97,13 @@ class Nefuer extends Base
             $arr[34],
             $arr[50],
         );
-        
+
         foreach ($array as $key => $val) {
             $preg = "/<td[^>]*?>([\s\S]*?)<\/td/i";
             preg_match_all($preg, $val, $arr);
             $array[$key] = $arr[1];
         }
-        
+
         $info['college'] = str_replace('院系：', '', $array[0][0]);
         $info['major'] = str_replace('专业：', '', $array[0][1]);
         $info['name'] = str_replace('&nbsp;', '', $array[1][1]);
@@ -148,6 +148,10 @@ class Nefuer extends Base
             'G' => array(),
             'H' => array(),
         );
+
+        unset($arr[9]);
+        $arr = array_merge($arr);
+        
         for ($i = 10; $i < 12; $i++) {
             preg_match_all($preg, $arr[$i], $tmp);
             $tmp = $tmp[1];
@@ -167,7 +171,6 @@ class Nefuer extends Base
             $pubNums['H'][$key] = $tmp[9];
         }
         $pubNums['all']['all'] = $nums[2]['all'];
-        
         //成绩
         $scores = array();
         for ($i = 15; $i < count($arr); $i++) {
@@ -268,7 +271,7 @@ class Nefuer extends Base
         if ( ! $this->in) {
             return $this->return(self::ERR_LOGIN_NO);
         }
-        
+
         try {
             $response = $this->request(
                 $name
@@ -279,7 +282,7 @@ class Nefuer extends Base
 
         $code = $response->getStatusCode();
         if ($code != 200) {
-            return $this->return(self::ERR_JWC_UNAVALIABLE); 
+            return $this->return(self::ERR_JWC_UNAVALIABLE);
         }
 
         $content = $response->getBody()->getContents();
